@@ -1,0 +1,24 @@
+{
+  "name": "purescript-materialize",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yehzhang/purescript-materialize"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-smolder": "^11.0.0",
+    "purescript-typelevel": "^4.0.0",
+    "purescript-aff": "^5.0.0",
+    "purescript-web-dom": "^1.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0",
+    "purescript-spec": "^3.0.0"
+  }
+}

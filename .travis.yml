@@ -1,0 +1,12 @@
+language: node_js
+node_js: 9
+install:
+  - npm install -g --production bower purescript pulp
+script:
+  - bower install
+  - pulp test
+after_success:
+- >-
+  test $TRAVIS_TAG &&
+  echo $GITHUB_TOKEN | pulp login &&
+  echo y | pulp publish --no-push
