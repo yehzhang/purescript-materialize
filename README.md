@@ -1,6 +1,6 @@
 # purescript-materialize
 
-[![Build](https://img.shields.io/travis/yehzhang/purescript-materialize.svg)](https://travis-ci.com/yehzhang/purescript-materialize)
+[![Build Status](https://travis-ci.com/yehzhang/purescript-materialize.svg?branch=master)](https://travis-ci.com/yehzhang/purescript-materialize)
 [![Latest release](https://img.shields.io/github/release/yehzhang/purescript-materialize.svg)](https://github.com/yehzhang/purescript-materialize/releases)
 
 [Materialize](https://materializecss.com/) bindings in PureScript, with a
