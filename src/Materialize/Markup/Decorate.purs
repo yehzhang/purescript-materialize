@@ -5,7 +5,7 @@ import Data.String (joinWith)
 import Prelude
 
 
--- | Sets optional fields of a data type, primarily used to craft a set of CSS
+-- | Sets optional fields of a data type. Primarily used to craft a set of CSS
 -- | classes related to one subject.
 class Decorate a b where
     decorate :: a -> b -> a

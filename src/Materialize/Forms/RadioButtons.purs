@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/radio-buttons.html>.
--}
+-- | See <https://materializecss.com/radio-buttons.html>.
 module Materialize.Forms.RadioButtons where
 
 import Materialize.Markup (class Variadic, liftVariadic)

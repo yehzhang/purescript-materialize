@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/sidenav.html>.
--}
+-- | See <https://materializecss.com/sidenav.html>.
 module Materialize.Sidenav where
 
 import Data.Maybe (Maybe(..))

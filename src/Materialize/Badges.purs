@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/badges.html>.
--}
+-- | See <https://materializecss.com/badges.html>.
 module Materialize.Badges where
 
 import Data.Maybe (Maybe(..))

@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/text-inputs.html>.
--}
+-- | See <https://materializecss.com/text-inputs.html>.
 module Materialize.Forms.TextInputs where
 
 import Data.Maybe (Maybe(..))

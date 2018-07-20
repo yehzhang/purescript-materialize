@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/select.html>.
--}
+-- | See <https://materializecss.com/select.html>.
 module Materialize.Forms.Select where
 
 import Text.Smolder.Markup (Attribute, attribute)

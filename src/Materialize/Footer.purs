@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/footer.html>.
--}
+-- | See <https://materializecss.com/footer.html>.
 module Materialize.Footer where
 
 import Materialize.Markup

@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/grid.html>.
--}
+-- | See <https://materializecss.com/grid.html>.
 module Materialize.Grid where
 
 import Data.List (List, reverse, (:))

@@ -1,7 +1,5 @@
-{-|
-See <https://materializecss.com/checkboxes.html>, and
-<https://materializecss.com/switches.html>.
--}
+-- | See <https://materializecss.com/checkboxes.html>, and
+-- | <https://materializecss.com/switches.html>.
 module Materialize.Forms.Checkboxes where
 
 import Materialize.Markup

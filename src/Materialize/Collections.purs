@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/collections.html>.
--}
+-- | See <https://materializecss.com/collections.html>.
 module Materialize.Collections where
 
 import Data.Maybe (Maybe(..))

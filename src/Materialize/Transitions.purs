@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/css-transitions.html>.
--}
+-- | See <https://materializecss.com/css-transitions.html>.
 module Materialize.Transitions
     ( Transition
     , Direction

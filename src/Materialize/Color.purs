@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/color.html>.
--}
+-- | See <https://materializecss.com/color.html>.
 module Materialize.Color
     ( Hue
     , Shade

@@ -1,8 +1,6 @@
-{-|
-See <https://materializecss.com/color.html>,
-<https://materializecss.com/typography.html>, and
-<https://materializecss.com/helpers.html>.
--}
+-- | See <https://materializecss.com/color.html>,
+-- | <https://materializecss.com/typography.html>, and
+-- | <https://materializecss.com/helpers.html>.
 module Materialize.Text where
 
 import Data.Maybe (Maybe(..))

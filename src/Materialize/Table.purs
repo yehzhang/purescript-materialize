@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/table.html>.
--}
+-- | See <https://materializecss.com/table.html>.
 module Materialize.Table where
 
 import Data.Maybe (Maybe(..))

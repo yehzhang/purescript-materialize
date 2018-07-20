@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/preloader.html>.
--}
+-- | See <https://materializecss.com/preloader.html>.
 module Materialize.Preloader where
 
 import Data.Either (Either(..))

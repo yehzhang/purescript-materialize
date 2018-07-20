@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/waves.html>.
--}
+-- | See <https://materializecss.com/waves.html>.
 module Materialize.Waves where
 
 import Data.Either (Either(..))

@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/media.html>.
--}
+-- | See <https://materializecss.com/media.html>.
 module Materialize.Media.Slider where
 
 import Data.Maybe (Maybe(..))

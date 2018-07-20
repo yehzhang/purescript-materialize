@@ -1,7 +1,5 @@
-{-|
-See <https://materializecss.com/navbar.html>, and
-<https://materializecss.com/breadcrumbs.html>.
--}
+-- | See <https://materializecss.com/navbar.html>, and
+-- | <https://materializecss.com/breadcrumbs.html>.
 module Materialize.Navbar where
 
 import Materialize.Markup (class Variadic, liftVariadic)

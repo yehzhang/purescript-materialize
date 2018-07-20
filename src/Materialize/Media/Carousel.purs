@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/carousel.html>.
--}
+-- | See <https://materializecss.com/carousel.html>.
 module Materialize.Media.Carousel where
 
 import Data.Maybe (Maybe(..))

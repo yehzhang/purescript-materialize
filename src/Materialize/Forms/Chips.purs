@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/chips.html>.
--}
+-- | See <https://materializecss.com/chips.html>.
 module Materialize.Forms.Chips where
 
 import Materialize.Markup (class Variadic, liftVariadic)

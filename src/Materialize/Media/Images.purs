@@ -1,7 +1,5 @@
-{-|
-See <https://materializecss.com/media-css.html> and
-<https://materializecss.com/media.html>.
--}
+-- | See <https://materializecss.com/media-css.html> and
+-- | <https://materializecss.com/media.html>.
 module Materialize.Media.Images where
 
 import Data.Maybe (Maybe(..))

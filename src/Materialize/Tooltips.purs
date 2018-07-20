@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/tooltips.html>.
--}
+-- | See <https://materializecss.com/tooltips.html>.
 module Materialize.Tooltips
     ( Tooltip
     , TooltipOptions

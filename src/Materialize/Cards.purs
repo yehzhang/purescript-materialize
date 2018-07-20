@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/cards.html>.
--}
+-- | See <https://materializecss.com/cards.html>.
 module Materialize.Cards where
 
 import Data.Either.Nested (Either3, in1, in2, in3)

@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/helpers.html>.
--}
+-- | See <https://materializecss.com/helpers.html>.
 module Materialize.Visibility
     ( Visibility(..)
     , VisibilityType

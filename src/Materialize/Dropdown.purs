@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/dropdown.html>.
--}
+-- | See <https://materializecss.com/dropdown.html>.
 module Materialize.Dropdown where
 
 import Text.Smolder.Markup (Attribute, attribute)

@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/shadow.html>.
--}
+-- | See <https://materializecss.com/shadow.html>.
 module Materialize.Shadow
     ( Shadow
     , ZDepth

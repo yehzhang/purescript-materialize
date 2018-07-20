@@ -1,11 +1,11 @@
-{-|
-Before using the module, please make sure to add the following line into the
-@<head>@ block of @index.html@:
-
-> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-See <https://materializecss.com/icons.html>.
--}
+-- | Before using the module, please make sure to add the following line into
+-- | the `<head>` block of `index.html`:
+-- |
+-- | ```html
+-- | <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+-- | ```
+-- |
+-- | See <https://materializecss.com/icons.html>.
 module Materialize.Icons.Data where
 
 import Data.Newtype (class Newtype, wrap)

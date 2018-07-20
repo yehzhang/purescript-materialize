@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/toasts.html>.
--}
+-- | See <https://materializecss.com/toasts.html>.
 module Materialize.Toasts
     ( ToastOptions
     , Toast

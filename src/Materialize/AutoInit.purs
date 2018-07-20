@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/auto-init.html>.
--}
+-- | See <https://materializecss.com/auto-init.html>.
 module Materialize.AutoInit
     ( autoInit
     , noAutoInit

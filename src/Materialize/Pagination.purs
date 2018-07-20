@@ -1,6 +1,4 @@
-{-|
-See <https://materializecss.com/pagination.html>.
--}
+-- | See <https://materializecss.com/pagination.html>.
 module Materialize.Pagination where
 
 import Materialize.Markup

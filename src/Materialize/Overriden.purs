@@ -1,6 +1,4 @@
-{-|
-Keywords on which other modules depend to construct CSS classes.
--}
+-- | Keywords on which other modules depend to construct CSS classes.
 module Materialize.Overriden where
 
 import Data.Typelevel.Undefined (undefined)

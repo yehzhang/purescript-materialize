@@ -15,10 +15,11 @@ import Materialize.Markup.Render (class Render, render, render', renderString)
 
 
 -- | Returns different types depending on what the caller wants. Primarily used
--- | to return a @ClassDsl@ when something is finished decorating.
+-- | to return a "ClassDsl" when something is finished decorating. Sometimes
+-- | used to return a "Text.Smolder.Markup.Markup".
 {-
-@r@ depends on @a@ so that the compiler knows when, for example, the return type
-is @ClassDsl b@, there exists a unique argument type, i.e., @Render a => a@,
+`r` depends on `a` so that the compiler knows when, for example, the return type
+is `ClassDsl b`, there exists a unique argument type, i.e., `Render a => a`,
 which is the expected behavior.
 
 See https://stackoverflow.com/a/20040343/4435715 for more.
@@ -28,7 +29,7 @@ class Variadic a r | r -> a where
 
 newtype Decorator a = Decorator a
 
--- Uses @Decorator@ to prevent directly applying @b@ to @a@ and to avoid
+-- Uses `Decorator` to prevent directly applying `b` to `a` and to avoid
 -- instance overlapping.
 instance variadicDecorate' :: (Variadic a r, Decorate a b) => Variadic a (Decorator b -> r) where
     liftVariadic a = liftVariadic <<< decorate a <<< unwrap
@@ -43,8 +44,8 @@ instance variadicReturnString :: Render a => Variadic a String where
     liftVariadic = renderString
 
 {-
-Cannot just write @Variadic a (ClassDsl Unit)@ as the compiler is not smart
-enough to match instances other than @ClassDsl a@.
+Cannot just write `Variadic a (ClassDsl Unit)` as the compiler is not smart
+enough to match instances other than `ClassDsl a`.
 
 See
 https://blog.infinitenegativeutility.com/2017/1/haskell-type-equality-constraints

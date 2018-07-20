@@ -1,8 +1,6 @@
-{-|
-See <https://materializecss.com/buttons.html>,
-<https://materializecss.com/floating-action-button.html>, and
-<https://materializecss.com/pulse.html>.
--}
+-- | See <https://materializecss.com/buttons.html>,
+-- | <https://materializecss.com/floating-action-button.html>, and
+-- | <https://materializecss.com/pulse.html>.
 module Materialize.Buttons
     ( Button(..)
     , ButtonType

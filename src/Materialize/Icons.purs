@@ -1,8 +1,6 @@
-{-|
-See <https://materializecss.com/icons.html>.
-
-See "Materialize.Icons.Data" for all available icons.
--}
+-- | See "Materialize.Icons.Data" for all available icons.
+-- |
+-- | See also <https://materializecss.com/icons.html>.
 module Materialize.Icons where
 
 import Data.Maybe (Maybe(..))
@@ -39,7 +37,7 @@ instance variadicReturnIcon :: Variadic Icon Icon where
 materialIcons :: forall r. Variadic Class r => r
 materialIcons = liftVariadic "material-icons"
 
--- | Keyword to prefix an @Icon@ to a text input or Textarea.
+-- | Keyword to prefix an `Icon` to a text input or Textarea.
 prefixedInInputField :: PrefixedInInputField
 prefixedInInputField = undefined
 
