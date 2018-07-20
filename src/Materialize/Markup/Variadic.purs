@@ -15,8 +15,8 @@ import Materialize.Markup.Render (class Render, render, render', renderString)
 
 
 -- | Returns different types depending on what the caller wants. Primarily used
--- | to return a "ClassDsl" when something is finished decorating. Sometimes
--- | used to return a "Text.Smolder.Markup.Markup".
+-- | to return a `ClassDsl` when something is finished decorating. Sometimes
+-- | used to return a Smolder `Markup`.
 {-
 `r` depends on `a` so that the compiler knows when, for example, the return type
 is `ClassDsl b`, there exists a unique argument type, i.e., `Render a => a`,
