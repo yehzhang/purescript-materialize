@@ -135,7 +135,7 @@ destroyTooltips parentNode = do
 - [x] [Breadcrumbs](https://materializecss.com/breadcrumbs.html)
 - [x] [Cards](https://materializecss.com/cards.html)
 - [x] [Collections](https://materializecss.com/collections.html)
-- [x] [Floating Action Button](https://materializecss.com/floating-action-button.html) (Class only)
+- [x] [Floating Action Button](https://materializecss.com/floating-action-button.html) (Classes only)
 - [x] [Footer](https://materializecss.com/footer.html)
 - [x] [Icons](https://materializecss.com/icons.html)
 - [x] [Navbar](https://materializecss.com/navbar.html)
@@ -145,11 +145,11 @@ destroyTooltips parentNode = do
 ### JavaScript
 
 - [x] [Auto Init](https://materializecss.com/auto-init.html)
-- [x] [Carousel](https://materializecss.com/carousel.html) (Class only)
+- [x] [Carousel](https://materializecss.com/carousel.html) (Classes only)
 - [ ] Collapsible
 - [ ] Dropdown
 - [ ] FeatureDiscovery
-- [x] [Media](https://materializecss.com/media.html) (Class only)
+- [x] [Media](https://materializecss.com/media.html) (Classes and Material box only)
 - [ ] Modals
 - [ ] Parallax
 - [ ] Pushpin
@@ -170,7 +170,7 @@ destroyTooltips parentNode = do
 - [ ] Range
 - [x] [Select](https://materializecss.com/select.html)
 - [x] [Switches](https://materializecss.com/switches.html)
-- [x] [Text Inputs](https://materializecss.com/text-inputs.html) (Class only)
+- [x] [Text Inputs](https://materializecss.com/text-inputs.html) (Classes only)
 
 (Pull requests are welcomed) :)
 

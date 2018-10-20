@@ -5,10 +5,14 @@ module Materialize.Media.Images where
 import Data.Maybe (Maybe(..))
 import Data.Newtype (class Newtype, wrap)
 import Data.Typelevel.Undefined (undefined)
+import Effect (Effect)
 import Prelude
 import Text.Smolder.Markup (Attribute, attribute)
 
-import Materialize.Markup (class Decorate, class Render, class Variadic, liftVariadic, render, (<~), (~>))
+import Materialize.DOM (class Component, class Init, ComponentClass)
+import Materialize.Internal.DOM (gInit)
+import Materialize.Internal.Options (class Subrow)
+import Materialize.Markup (class Decorate, class Render, class Variadic, liftVariadic, render, (<~), (~>), renderString)
 import Materialize.Overriden (Circular, Responsive)
 
 
@@ -18,6 +22,12 @@ newtype Image = Image { circular :: Maybe Circular
                       }
 
 data MaterialBoxed
+
+foreign import data MaterialBox :: Type
+
+type MaterialBoxOptions = ( inDuration :: Number
+                          , outDuration :: Number
+                          )
 
 image :: forall a r. Decorate Image a => Variadic Image r => a -> r
 image a = liftVariadic $ a ~> wrap { circular: Nothing
@@ -51,3 +61,13 @@ instance renderMaterialBoxed :: Render MaterialBoxed where
     render _ = render "materialboxed"
 
 derive instance newtypeImage :: Newtype Image _
+
+instance componentMaterialBox :: Component MaterialBox where
+    instanceSelectors = wrap $ "." <> renderString materialBoxed
+    componentClass = getClass
+
+foreign import getClass :: Effect (ComponentClass MaterialBox)
+
+instance initMaterialBox ::
+        Subrow r MaterialBoxOptions => Init { | r } MaterialBox where
+    init = gInit
