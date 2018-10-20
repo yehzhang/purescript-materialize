@@ -1,4 +1,4 @@
--- | See "Materialize.Icons.Data" for all available icons.
+-- | See `Materialize.Icons.Data` for all available icons.
 -- |
 -- | See also <https://materializecss.com/icons.html>.
 module Materialize.Icons where
