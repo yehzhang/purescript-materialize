@@ -27,6 +27,12 @@ file = undefined
 validate :: forall r. Variadic Class r => r
 validate = liftVariadic "validate"
 
+valid :: forall r. Variadic Class r => r
+valid = liftVariadic "valid"
+
+invalid :: forall r. Variadic Class r => r
+invalid = liftVariadic "invalid"
+
 textInputActive :: forall r. Variadic Class r => r
 textInputActive = liftVariadic "active"
 
