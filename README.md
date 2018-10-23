@@ -9,7 +9,7 @@ DSL.
 
 ### Demo project
 
-[_Yousort_](https://github.com/yehzhang/Yousort)
+[Yousort](https://github.com/yehzhang/Yousort)
 
 ## Overview
 
