@@ -7,6 +7,10 @@
 builtin [purescript-smolder](https://github.com/bodil/purescript-smolder)-style
 DSL.
 
+### Demo project
+
+[_Yousort_](https://github.com/yehzhang/Yousort)
+
 ## Overview
 
 ### Class DSL
